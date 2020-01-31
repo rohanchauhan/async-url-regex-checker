@@ -39,6 +39,7 @@ python final_program.py
 2. URL normalization is not performed because aiohttp performs it automatically.
 3. I tried using the semaphore to control the number of requests but it was resulting in too many open files exception. So, in order to control the throughput, I went with a Queue. The delay makes sures that not all the urls are in queue at once and the number of requests controls the number of GET requests. To increase throughput, reduce delay and add more requests and to decrease throughput vice versa.
 4. Using aiofiles, aiohttp and asyncio is used to implement asynchronous execution.
+5. To test cleanup using the signal, just comment the latter part.
 
 #### Things that could have been improved:
 1. Especially the unit tests!
