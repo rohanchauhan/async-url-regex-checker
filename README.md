@@ -8,7 +8,7 @@ This program given a list of configured urls and one or more regular expressions
 4. 'ae.csv': Contains a list of url that is used by dataset generator to make the dataset.
 
 #### Installation Instructions:
-1. Clone the repository or download the zip file.
+1. Clone the repository or download the zip file and go inside the directory.
 2. Make a python3 virtual environment.
 ```python
 python3 -m venv .cgi-env
@@ -49,5 +49,6 @@ python final_program.py
 6. Can add logging.
 
 #### References
-1.<https://realpython.com/async-io-python/>
+1.<https://realpython.com/async-io-python/> 
+
 2.<https://www.roguelynn.com/words/asyncio-graceful-shutdowns/>
